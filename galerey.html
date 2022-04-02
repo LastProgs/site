@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Poiret+One&family=Zen+Kurenaido&display=swap" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <title>Экополимер</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header id="header" class="header _container">
+            <div class="logo">
+                <div class="logo_text">Экополимер</div>
+                <img class="logo_img" src="img/Logo_Zaliv_White.png" alt="">
+            </div>
+            <div class="header_menu menu">
+                <div class="nav_icon">
+                    <span></span>
+                </div>
+                <div class="nav_bar">
+                <ul class="nav_list">
+                    <li><a data-goto=".main" class="nav_links nl" href="main.html" onclick="del_active()">Главная</a></li>
+                    <li><a class="nav_links nl" href="about.html" onclick="del_active()">О нас</a></li>
+                    <li><a class="nav_links nl" href="production.html" onclick="del_active()">Продукция</a></li>
+                    <li><a class="nav_links nl" href="galerey.html" onclick="del_active()">Галерея</a></li>
+                    <li><a data-goto="._info" class="nav_links nl" href="#contacts" onclick="del_active()">Контакты</a></li>
+                </ul>
+                </div>
+            </div>
+        </header>
+            <div class="main_galerey _container q">
+                <div class="container_galerey">
+                    <div class="slider">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contacts" class="about _container _info">
+            <p class="main_text_dark">Copyright</p>
+            <div class="links">
+                <a class="nl main_text_dark _a" href="mailto:carev.ilya.24@gmail.com">ecopolimer@mail.ru</a>
+                <a class="nl main_text_dark _a" href="tel:+79223124567">+7(922)-312-45-67</a>
+                <a data-goto=".main" class="nl main_text_dark btn_up open" href="#header">Наверх</a>
+            </div>
+        </div>
+        <div id="contacts" class="about_touch _info">
+            <div class="about_touch_content _container">
+                <p style="text-transform: capitalize;" class="heading_text_dark _a">Copyright</p>
+                <div class="nav_content main_text_dark">
+                    <a class="nl main_text_dark _a" href="mailto:carev.ilya.24@gmail.com">ecopolimer@mail.ru</a>
+                    <a class="nl main_text_dark _a" href="tel:+79223124567">+7(922)-312-45-67</a>
+                    <a data-goto=".main" class="nl main_text_dark _a btn_up" href="#header">Наверх</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/form_val.js"></script>
+</body>
+</html>
